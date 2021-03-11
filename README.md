@@ -1,3 +1,4 @@
+![GitHub](https://img.shields.io/github/license/ScientistRachel/multiScalePIVanalysis)
 # multiScalePIVanalysis
 ## PIV-based tools for measuring collective cell migration
 
