@@ -55,17 +55,8 @@ parpoolName = 'local'; % Set the parallel profile to use.
 % Plotting parameter            
 frameskip = 25; %Every frameskip-th frame will be ploted during edge detection and filter check
 
-% Optional delay parameter
-pause_length = 0; %Set length of time script will wait before running. 
-                  %Can use this to wait for files to transfer from a microscope.
-                  %pause in sec  0.5h=1800; 1h = 3600; 2h = 7200; 3h = 10800
-                  
+                 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MATLAB PREP %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-if pause_length > 0
-    disp(['Pausing for ' num2str(pause_length) ' seconds'])
-    pause(pause_length)
-end
-
 % This section makes sure the path contains the necessary subfunctions.
 p = path; %Save the original path to reset later
 p2 = genpath('PIV');
