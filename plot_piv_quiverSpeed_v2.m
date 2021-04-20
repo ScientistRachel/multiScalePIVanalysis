@@ -63,7 +63,7 @@ if ~exist('unitTime','var') || isempty(unitTime)
 end
 if ~exist('savedir','var') || isempty(savedir)
     % Check for correct directory formatting
-    if ~strmcp(dot_piv.directory(end),filesep)
+    if ~strcmp(dot_piv.directory(end),filesep)
         dot_piv.directory = [dot_piv.directory filesep];
     end
     % Set up a directory based on image name
