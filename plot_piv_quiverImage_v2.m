@@ -110,7 +110,7 @@ if strcmp(dot_piv.type,'zvi') || strcmp(dot_piv.type,'czi')
 
     end
     
-elseif strcmp(type,'multiff')  %%% Multipage tif files
+elseif strcmp(dot_piv.type,'multiff')  %%% Multipage tif files
     
     % Find correct file names
     image_info = imfinfo([dot_piv.directory dot_piv.imname '.tif']);
@@ -164,7 +164,7 @@ elseif strcmp(type,'multiff')  %%% Multipage tif files
 
     end
     
-elseif strcmp(type,'mat')  %%% .mat file -- will assume first variable is a 3D matrix of images!
+elseif strcmp(dot_piv.type,'mat')  %%% .mat file -- will assume first variable is a 3D matrix of images!
     
     m = matfile([directory imname '.mat']);
     varlist = who(m);
