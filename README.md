@@ -1,4 +1,5 @@
-![GitHub](https://img.shields.io/github/license/ScientistRachel/multiScalePIVanalysis)
+![GitHub](https://img.shields.io/github/license/ScientistRachel/multiScalePIVanalysis) [![DOI](https://zenodo.org/badge/346837427.svg)](https://zenodo.org/badge/latestdoi/346837427)
+
 # multiScalePIVanalysis
 ## PIV-based tools for measuring collective cell migration
 
