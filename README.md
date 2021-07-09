@@ -6,7 +6,7 @@
 This code was developed to measure the collective migration of two-dimensional cell sheets that have been imaged over time using phase contrast microscopy.  As described below, _main_batch_script_pairedEdges.m_ will run a suite of analysis tools over a set of images to create multiple .mat and image files of figures as output.  Individual analysis tools can also be run separately given correctly organized inputs.
 
 The current version of the code was adapted for analysis of the data in:
-- Lee, Rachel M., Michele I. Vitolo, Wolfgang Losert, and Stuart S. Martin. “Distinct Roles of Tumor-Associated Mutations in Collective Cell Migration.” BioRxiv, June 5, 2020, 2020.06.04.135178. https://doi.org/10.1101/2020.06.04.135178.
+-Lee, Rachel M., Michele I. Vitolo, Wolfgang Losert, and Stuart S. Martin. “Distinct Roles of Tumor Associated Mutations in Collective Cell Migration.” Scientific Reports 11, no. 1 (May 13, 2021): 10291. https://doi.org/10.1038/s41598-021-89130-6.
 
 Prior iterations of this analysis were also used in the following publications
 - Stuelten, Christina H., Rachel M. Lee, Wolfgang Losert, and Carole A. Parent. “Lysophosphatidic Acid Regulates the Motility of MCF10CA1a Breast Cancer Cell Sheets via Two Opposing Signaling Pathways.” Cellular Signalling 45 (May 2018): 1–11. https://doi.org/10.1016/j.cellsig.2018.01.005.
