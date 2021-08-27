@@ -378,6 +378,7 @@ for kk = 1:numel(directories)
     % discussion of this analysis
     disp(['Running coarse graining on the folder: ' directory ' (' num2str(kk) ' of ' num2str(numel(directories)) ')'])
     run_coarse_grain_pairedTif(directory,user_lastframe,r_scale,t_scale,over_write)
+    disp(' ')
 
     %%%% Spatial Auto-Correlations
     % This is a time consuming step. Multiple types of correlations (speed,
@@ -386,6 +387,7 @@ for kk = 1:numel(directories)
     % Note, when the mean is subtracted, the correlations being calculated
     % are Pearson's correlations. Modified correlations with the mean
     % included, used by the Losert lab, are also calculated.
+    disp(['Running correlations on the folder: ' directory ' (' num2str(kk) ' of ' num2str(numel(directories)) ')'])
     for jj = 1:size(names_list,1)
         imnames = names_list(jj,:);
         imname = [imnames{1} '_' imnames{2}];
